@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pledgio — Pause Before You Scroll</title>
+<meta name="description" content="Pledgio adds a pause before the apps you choose, with a gentle 28-day plan. No account, no ads. For iPhone and Android.">
+<style>
+  :root { color-scheme:light dark; --bg:#f4f8f5; --bg2:#e3efe8; --text:#17211d; --muted:#52605a; --line:rgba(31,122,84,.18); --accent:#1f7a54; --accent2:#2a9568; --on:#f4f8f5; --card:rgba(255,255,255,.6); --band:#0c1512; --bandh:#7fe0b0; --bandp:rgba(234,242,238,.85); }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0c1512; --bg2:#13211b; --text:#eaf2ee; --muted:#a6b5ae; --line:rgba(127,224,176,.18); --accent:#7fe0b0; --accent2:#a3ecc8; --on:#0c1512; --card:rgba(255,255,255,.05); --band:#17281f; }
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,"SF Pro Text","Helvetica Neue",Roboto,system-ui,sans-serif; background:linear-gradient(160deg,var(--bg),var(--bg2)); background-attachment:fixed; color:var(--text); line-height:1.65; }
+  a { color:var(--accent); }
+  .wrap { max-width:720px; margin:0 auto; padding:64px 24px; }
+  header { text-align:center; padding:48px 0 24px; }
+  h1 { font-size:44px; font-weight:800; letter-spacing:-0.5px; margin:24px 0 8px; }
+  .tag { font-size:20px; color:var(--accent); font-weight:600; }
+  .sub { font-size:17px; color:var(--muted); margin:14px auto 0; max-width:480px; }
+  .stores { display:flex; flex-wrap:wrap; justify-content:center; gap:12px; margin-top:28px; }
+  .cta { display:inline-block; background:var(--accent); color:var(--on); font-weight:700; padding:14px 24px; border-radius:14px; text-decoration:none; }
+  a.cta:hover { background:var(--accent2); }
+  .trial { display:block; margin-top:14px; font-size:14px; color:var(--muted); }
+  section { margin-top:64px; }
+  h2 { font-size:24px; font-weight:800; margin-bottom:16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:20px 22px; margin-bottom:12px; }
+  .card b { color:var(--accent); }
+  .privacy-band { background:var(--band); border-radius:20px; padding:32px 28px; }
+  .privacy-band h2 { color:var(--bandh); }
+  .privacy-band p { color:var(--bandp); }
+  footer { margin-top:72px; padding-top:24px; border-top:1px solid var(--line); font-size:14px; color:var(--muted); text-align:center; }
+  footer a { text-decoration:none; margin:0 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <svg width="96" height="96" viewBox="0 0 96 96" aria-hidden="true">
+      <circle cx="48" cy="48" r="48" fill="#1f7a54"/>
+      <rect x="32" y="28" width="11" height="40" rx="5.5" fill="#f4f8f5"/>
+      <rect x="53" y="28" width="11" height="40" rx="5.5" fill="#f4f8f5"/>
+    </svg>
+    <h1>Pledgio</h1>
+    <div class="tag">Pause before you scroll.</div>
+    <p class="sub">A moment before the apps you choose, and a gentle 28-day plan to use your phone on purpose.</p>
+    <div class="stores">
+      <!-- When live, change each span to an <a class="cta" href="store link"> -->
+      <span class="cta">App Store: coming soon</span>
+      <span class="cta">Google Play: coming soon</span>
+    </div>
+    <span class="trial">Free for up to 3 apps. No account.</span>
+  </header>
+
+  <section>
+    <h2>For anyone who opens an app and loses an hour</h2>
+    <div class="card"><b>A pause, not a wall.</b><br>When you open an app you chose, Pledgio asks you to stop for a moment. Then you decide: leave, or go in for a set time.</div>
+    <div class="card"><b>A 28-day plan.</b><br>Your daily aim comes down a little at a time, so the change lasts.</div>
+    <div class="card"><b>Always your choice.</b><br>You can always get in. Past your aim, the way in just takes a little longer.</div>
+    <div class="card"><b>Night and Morning Guard.</b><br>Protect the hours around sleep, when scrolling costs the most.</div>
+    <div class="card"><b>Focus sessions.</b><br>Quiet your chosen apps while you work, and end early whenever you need to.</div>
+  </section>
+
+  <section class="privacy-band">
+    <h2>Private by design</h2>
+    <p>Pledgio has no account, no server of its own, and no ads. Your app list, your usage, and your pledge stay on your phone.</p>
+  </section>
+
+  <section>
+    <h2>Free and Pro</h2>
+    <div class="card">The pause on up to 3 apps, focus sessions, and your weekly view are free. <b>Pledgio Pro</b> adds the pause on every app you choose, the 28-day plan, and Night and Morning Guard. The yearly plan starts with a 7-day free trial. If Pro ends, your top 3 apps stay paused.</div>
+  </section>
+
+  <footer>
+    <a href="support.html">Support</a> · <a href="privacy.html">Privacy Policy</a> · <a href="mailto:devasumapps@gmail.com">Contact</a>
+    <p style="margin-top:10px">For iPhone and Android.</p>
+  </footer>
+
+</div>
+</body>
+</html>
